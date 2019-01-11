@@ -26,6 +26,8 @@ The actions each agent can take are continuous actions, one to move the racket t
 
 2. Place the file in the root directory of this repository, and unzip (or decompress) the file. 
 
+Required libraries are provided in requirements.txt.
+
 ### Training the agent
 
 In order to train the agent, open Tennis.ipynb and run all the cells. 
@@ -45,3 +47,6 @@ jupyter notebook
 A webpage will be opened on your browser, click on Report.ipynb, which opens a new page. From here you should be able to run a cell or run everything at once.
 
 #### Reference
+- [Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments](https://arxiv.org/pdf/1706.02275.pdf)
+- [Continuous control with deep reinforcement learning](https://arxiv.org/abs/1509.02971)
+- [Udacity DRLND DDPG example](https://github.com/udacity/deep-reinforcement-learning/blob/master/ddpg-pendulum/ddpg_agent.py)
